@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="small-12 medium-8 columns">
+    <h3>3D printing Service Collection</h3>
+    <div class="row small-up-2 medium-up-3" *ngFor="let collection of collections | async">
+        <div class="card">
+         <div class="card-divider">
+            <h4>
+              <i class="material-icons">highlight</i>
+              <span class="text--bold js-collection-name">{{collection.name}}</span>
+            </h4>
+         </div>
+          <div class="card-section">
+              <p class="js-collection-desc">{{collection.description}}</p>
+              <p>
+                <button type="button"
+                        class="button btn-green large js-btn-add"
+                        (click)="addCollectionToCart(collection, 1)">Add To Cart</button>
+                <button type="button"
+                        class="button secondary small js-btn-remove"
+                        *ngIf="collectionInCart(collection) | async"
+                        (click)="removeCollectionFromCart(collection, 1)">Remove item from cart</button>
+              </p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="small-12 medium-4 columns">
+    <app-cart></app-cart>
+  </div>
+</div>

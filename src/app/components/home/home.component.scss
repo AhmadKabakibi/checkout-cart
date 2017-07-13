@@ -1,0 +1,18 @@
+.collection-list {
+  list-style-type: none;
+  margin: 0;
+}
+
+.collection-container {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.btn-green{
+  background-color: #2cceab;
+  color: white;
+}

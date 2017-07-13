@@ -1,0 +1,51 @@
+[
+  {
+    "id": "9aa113b4-1e4e-4cde-bf9d-8358fc78ea4f",
+    "price": 3.50,
+    "name" : "3Dprintfabriek's Hub",
+    "description" : "Affordable, durable and widely available plastics like FDM and SLA.",
+    "photo" : ""
+  },
+  {
+    "id": "bdcbe438-ac85-4acf-8949-5627fd5b57df",
+    "price": 10,
+    "name" : "InZert Graphics's Hub",
+    "description" : "Affordable, durable and widely available plastics like FDM and SLA.",
+    "photo" : ""
+  },
+  {
+    "id": "9aa113b4-r6r3-4cde-bf9d-8358fc78ey90",
+    "price": 5.50,
+    "name" : "My3DPart's Hub",
+    "description" : "Affordable, durable and widely available plastics like FDM and SLA.",
+    "photo" : ""
+  },
+  {
+    "id": "58552daa-30f6-46fa-a808-f1a1d7667561",
+    "price": 7.50,
+    "name" : "Fabb-It's Hub",
+    "description" : "Affordable, durable and widely available plastics like FDM and SLA.",
+    "photo" : ""
+  },
+  {
+    "id": "d4666802-fd84-476f-9eea-c8dd29cfb633",
+    "price": 2.50,
+    "name" : "3Faktur's Hub",
+    "description" : "Affordable, durable and widely available plastics like FDM and SLA.",
+    "photo" : ""
+  },
+  {
+    "id": "7ef3b9dd-5a95-4415-af37-6871d6ff0262",
+    "price": 3.50,
+    "name" : "Modellus's Hub",
+    "description" : "Affordable, durable and widely available plastics like FDM and SLA.",
+    "photo" : ""
+  },
+  {
+    "id": "9at113b4-1e4e-4cde-bf9d-8358fc79923",
+    "price": 1.50,
+    "name" : "3Dream's Hub",
+    "description" : "Affordable, durable and widely available plastics like FDM and SLA.",
+    "photo" : ""
+  }
+]
